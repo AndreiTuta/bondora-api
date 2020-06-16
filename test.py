@@ -14,7 +14,7 @@ url = "https://api.bondora.com/api/v1/account/balance"
 def generate_response():
 
     # Mock
-    response_text = {'Errors': None, 'Payload': {'Balance': 0.0, 'BidRequestAmount': 0,'GoGrowAccounts': [{'Name': 'Extra Income','NetDeposits': 109.67,'NetProfit': 0.24,'TotalSaved': 109.91}],'Reserved': 0.0,'TotalAvailable': 0.0},'Success': True}
+    response_text = {'Errors': None, 'Payload': {'Balance': 0.0, 'BidRequestAmount': 0,'GoGrowAccounts': [{'Name': 'Extra Income','NetDeposits': 109.67,'NetProfit': 0.24,'TotalSaved': 109.91}, {'Name': 'Extra Income', 'NetDeposits': 109.67, 'NetProfit': 0.24, 'TotalSaved': 109.91}],'Reserved': 0.0,'TotalAvailable': 0.0},'Success': True}
     #json_ob = json.loads(response_text)
     return response_text
     # pprint.pprint(json_ob)
